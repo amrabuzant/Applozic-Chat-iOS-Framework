@@ -247,7 +247,7 @@
     if([updateUI isEqualToNumber:[NSNumber numberWithInt:APP_STATE_INACTIVE]])
     {
         NSLog(@"App launched from Background....Directly opening view from %@",self.dict);
-        [self thirdPartyNotificationTap1:self.contactId withGroupId:groupId]; // Directly launching Chat
+//         [self thirdPartyNotificationTap1:self.contactId withGroupId:groupId]; // Directly launching Chat
         return;
     }
     
